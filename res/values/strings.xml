@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Add Two Numbers</string>
+    <string name="editnumber1_message">Enter first number</string>
+    <string name="editnumber2_message">Enter second number</string>
+    <string name="SumThese">=</string>
+    <string name="sum">sum</string>
+    <string name="title_activity_display_message">my message></string>
+</resources>

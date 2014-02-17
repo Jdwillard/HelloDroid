@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="0.1in"
+            />
+    <EditText android:id="@+id/edit_message"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:hint="@string/editnumber1_message" />
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="+" android:textSize="0.5in"/>
+    <EditText android:id="@+id/edit_message2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:hint="@string/editnumber2_message" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/SumThese" android:textSize="0.5in" android:onClick="sendMessage"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD TWO NUMBERS"
+            android:textSize="0.1in"
+            />
+</LinearLayout>
+
